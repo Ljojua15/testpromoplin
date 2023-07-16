@@ -135,7 +135,12 @@ body {
     font-family: 'CustomFont', sans-serif;
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    font-family: CrocoSansCAPSRegular, sans-serif;
+} */
