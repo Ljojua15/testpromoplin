@@ -107,10 +107,7 @@ body {
 /* მთავარი ადგილი ლენდინგის */
 
 .main-landing-place {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    position: relative;
     width: 695px;
     height: 920px;
     margin: -55px 95px 36px 97px;
@@ -120,6 +117,60 @@ body {
     border-radius: 40px;
     background-origin: border-box;
     background-clip: content-box, border-box;
+    z-index: 0;
+}
+
+.backgroundgrey {
+    position: absolute;
+    width: 766px;
+    height: 914px;
+    margin: -30px 87px 36px -34px;
+    padding: 25px 30px 21px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
+/* პროგრესბარი */
+
+.progersbar {
+    position: absolute;
+    width: 689px;
+    height: 91px;
+    background-image: url(/images/progresbarbackground.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: contain;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: -10px 124px 36px -11px;
+    padding: 8px 8px 28px 14px;
+}
+
+.progresbarimg {
+    width: 700px;
+    height: 120px;
+    padding: -25px 8px 28px 14px;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.palma {
+    position: absolute;
+    width: 931px;
+    height: 401px;
+    margin: 343px 0 300px;
+    object-fit: contain;
+}
+
+.blackwheel {
+    position: absolute;
+    width: 613px;
+    height: 613px;
+    margin: 21px 0 0;
+    padding: 25px 34px 36px 35px;
+    object-fit: contain;
 }
 
 
