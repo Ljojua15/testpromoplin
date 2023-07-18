@@ -135,7 +135,7 @@ body {
 /* პროგრესბარი */
 
 .progersbar {
-    position: absolute;
+    display: flex;
     width: 689px;
     height: 91px;
     background-image: url(/images/progresbarbackground.svg);
@@ -144,14 +144,14 @@ body {
     background-size: contain;
     border: 3px solid black;
     border-radius: 20px;
-    margin: -10px 124px 36px -11px;
-    padding: 8px 8px 28px 14px;
+    /* margin: -10px 124px 36px -11px; */
+    /* padding: 8px 8px 28px 14px; */
 }
 
 .progresbarimg {
     width: 700px;
     height: 120px;
-    padding: -25px 8px 28px 14px;
+    /* padding: -25px 8px 28px 14px; */
     object-fit: contain;
     z-index: 1;
 }
