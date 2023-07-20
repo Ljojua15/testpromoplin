@@ -18,3 +18,8 @@ const car = [`lasha`, `lasha1`, `lasha2`, `lasha3`];
 // }
 
 let i = 0;
+
+while (i < car.length) {
+  console.log(car[i]);
+  i++;
+}
